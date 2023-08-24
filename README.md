@@ -1,9 +1,16 @@
+[![CRAN](https://www.r-pkg.org/badges/version/spectralR)](https://cran.r-project.org/package=spectralR/)
+[![R-CMD-check](https://github.com/olehprylutskyi/spectralR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/olehprylutskyi/spectralR/actions/workflows/R-CMD-check.yaml)
+[![Codecov test coverage](https://codecov.io/gh/olehprylutskyi/spectralR/branch/main/graph/badge.svg)](https://app.codecov.io/gh/olehprylutskyi/spectralR?branch=main)
+
 # spectralR <img src="inst/figures/stickers/sticker_lightgray.png" align="right" alt="" width="140">
 
 ### Spectral reflectance visualisations for user-defined areas
 
 See our [vignette](https://olehprylutskyi.github.io/spectralR/) for
 detailed usage examples.
+
+**Authors**: [Oleh Prylutskyi](https://github.com/olehprylutskyi), 
+[Vladimir Mikryukov](https://github.com/vmikk), [Dariia Shyriaieva](https://github.com/driadash)
 
 ## Description
 
@@ -35,6 +42,8 @@ The overall workflow is following:
 3.  Visualize retrieved pixel data locally, mainly using ggplot2
     approach.
 
+![Overall workflow](https://github.com/olehprylutskyi/spectralR/blob/main/inst/figures/fig1_workflow_arc1.png)
+
 Essential requirements:
 
 -   stable Internet connection (for using API)
@@ -45,6 +54,14 @@ Essential requirements:
 -   valid Google Earth Engine account
 
 ## Installation
+
+Install the released version from CRAN
+
+``` r
+install.packages("spectralR")
+```
+
+You can install the development version of `spectralR` like so:
 
 ``` r
 library(remotes)
